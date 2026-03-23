@@ -1,1 +1,1 @@
- Privacy Policy EduAI
+Privacy Policy for EduAI app
