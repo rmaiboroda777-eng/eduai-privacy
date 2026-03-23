@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduAI — Privacy Policy / Політика Конфіденційності</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f0f1a;
+            color: #e0e0e0;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        .lang-switch {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+        .lang-btn {
+            padding: 8px 20px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .lang-btn.active {
+            background: #6c63ff;
+            color: white;
+        }
+        .lang-btn:not(.active) {
+            background: #1a1a2e;
+            color: #aaa;
+        }
+        .section { display: none; }
+        .section.active { display: block; }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 32px;
+            background: #1a1a2e;
+            border-radius: 16px;
+            border: 1px solid #6c63ff33;
+        }
+        .logo { font-size: 48px; margin-bottom: 12px; }
+        h1 {
+            font-size: 28px;
+            color: #6c63ff;
+            margin-bottom: 8px;
+        }
+        .date {
+            color: #888;
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #6c63ff;
+            margin: 32px 0 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #6c63ff33;
+        }
+        p { margin-bottom: 12px; color: #ccc; }
+        ul {
+            margin: 8px 0 16px 20px;
+            color: #ccc;
+        }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #1a1a2e;
+            border-left: 4px solid #6c63ff;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+        .highlight p { margin: 0; }
+        .contact {
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 32px;
+            border: 1px solid #6c63ff33;
+        }
+        .contact a { color: #6c63ff; text-decoration: none; }
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            color: #555;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="lang-switch">
+        <button class="lang-btn active" onclick="switchLang('uk')">🇺🇦 Українська</button>
+        <button class="lang-btn" onclick="switchLang('en')">🇬🇧 English</button>
+    </div>
+
+    <!-- UKRAINIAN -->
+    <div class="section active" id="uk">
+        <div class="header">
+            <div class="logo">🎓</div>
+            <h1>EduAI</h1>
+            <p style="color:#aaa; font-size:16px;">Політика Конфіденційності</p>
+            <p class="date">Дата набрання чинності: 23 березня 2026 року</p>
+        </div>
+
+        <div class="highlight">
+            <p>Ця Політика конфіденційності описує, як додаток <strong>EduAI</strong>, розроблений <strong>Ruslan Maiboroda</strong>, збирає, використовує та захищає вашу інформацію.</p>
+        </div>
+
+        <h2>1. Інформація, яку ми збираємо</h2>
+        <p>EduAI збирає мінімум даних, необхідних для роботи додатку:</p>
+        <ul>
+            <li><strong>API ключі</strong> — Gemini або OpenAI ключі, які ви вводите самостійно. Зберігаються лише локально на вашому пристрої.</li>
+            <li><strong>Історія діалогів</strong> — ваші запити та відповіді AI зберігаються локально на пристрої у зашифрованій базі даних.</li>
+            <li><strong>Фотографії та файли</strong> — лише ті, які ви самостійно додаєте до запитів. Не зберігаються на серверах.</li>
+            <li><strong>Налаштування</strong> — вибір мови, ролі та провайдера AI зберігаються локально.</li>
+        </ul>
+
+        <h2>2. Як ми використовуємо інформацію</h2>
+        <p>Дані використовуються виключно для:</p>
+        <ul>
+            <li>Надсилання ваших запитів до обраного AI сервісу (Google Gemini або OpenAI)</li>
+            <li>Збереження історії діалогів на вашому пристрої</li>
+            <li>Персоналізації досвіду відповідно до вибраної ролі та мови</li>
+        </ul>
+
+        <h2>3. Передача даних третім особам</h2>
+        <p>EduAI передає дані лише сервісам AI, які ви обрали:</p>
+        <ul>
+            <li><strong>Google Gemini API</strong> — якщо ви використовуєте Gemini ключ. Політика Google: <a href="https://policies.google.com/privacy" style="color:#6c63ff">policies.google.com/privacy</a></li>
+            <li><strong>OpenAI API</strong> — якщо ви використовуєте OpenAI ключ. Політика OpenAI: <a href="https://openai.com/privacy" style="color:#6c63ff">openai.com/privacy</a></li>
+        </ul>
+        <div class="highlight">
+            <p>⚠️ Розробник EduAI <strong>не має доступу</strong> до ваших API ключів, запитів або відповідей AI. Всі дані передаються напряму з вашого пристрою до обраного AI сервісу.</p>
+        </div>
+
+        <h2>4. Зберігання даних</h2>
+        <ul>
+            <li>Всі дані зберігаються <strong>локально на вашому пристрої</strong></li>
+            <li>Ми не маємо серверів для зберігання користувацьких даних</li>
+            <li>Видалення додатку повністю видаляє всі пов'язані дані</li>
+        </ul>
+
+        <h2>5. Дозволи додатку</h2>
+        <p>EduAI запитує наступні дозволи:</p>
+        <ul>
+            <li><strong>Камера</strong> — для фотографування документів та зображень для аналізу AI</li>
+            <li><strong>Інтернет</strong> — для підключення до AI сервісів</li>
+            <li><strong>Зовнішнє сховище</strong> — для збереження експортованих файлів PDF/DOCX</li>
+            <li><strong>Галерея</strong> — для вибору зображень для аналізу</li>
+        </ul>
+
+        <h2>6. Безпека</h2>
+        <p>Ми вживаємо заходів для захисту ваших даних:</p>
+        <ul>
+            <li>API ключі зберігаються у захищеному сховищі Android DataStore</li>
+            <li>Дані не передаються на сторонні сервери</li>
+            <li>Ми не продаємо та не передаємо ваші дані третім особам</li>
+        </ul>
+
+        <h2>7. Діти</h2>
+        <p>Додаток EduAI призначений для освітніх цілей і може використовуватися дітьми під наглядом батьків або педагогів. Ми свідомо не збираємо персональні дані дітей до 13 років.</p>
+
+        <h2>8. Зміни до політики</h2>
+        <p>Ми можемо оновлювати цю Політику конфіденційності. Про значні зміни ми повідомимо через оновлення додатку. Продовження використання додатку після змін означає вашу згоду з оновленою політикою.</p>
+
+        <div class="contact">
+            <h2 style="margin-top:0; border:none;">9. Контакти</h2>
+            <p>Якщо у вас є запитання щодо цієї Політики конфіденційності, зверніться до нас:</p>
+            <p><strong>Розробник:</strong> Ruslan Maiboroda</p>
+            <p><strong>Додаток:</strong> EduAI — AI навчальний помічник</p>
+        </div>
+    </div>
+
+    <!-- ENGLISH -->
+    <div class="section" id="en">
+        <div class="header">
+            <div class="logo">🎓</div>
+            <h1>EduAI</h1>
+            <p style="color:#aaa; font-size:16px;">Privacy Policy</p>
+            <p class="date">Effective Date: March 23, 2026</p>
+        </div>
+
+        <div class="highlight">
+            <p>This Privacy Policy describes how the <strong>EduAI</strong> application, developed by <strong>Ruslan Maiboroda</strong>, collects, uses, and protects your information.</p>
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p>EduAI collects minimal data necessary for the app to function:</p>
+        <ul>
+            <li><strong>API Keys</strong> — Gemini or OpenAI keys you enter yourself. Stored only locally on your device.</li>
+            <li><strong>Conversation History</strong> — your queries and AI responses are stored locally on your device in an encrypted database.</li>
+            <li><strong>Photos and Files</strong> — only those you manually add to queries. Not stored on any servers.</li>
+            <li><strong>Settings</strong> — language, role, and AI provider preferences are stored locally.</li>
+        </ul>
+
+        <h2>2. How We Use Information</h2>
+        <p>Data is used exclusively to:</p>
+        <ul>
+            <li>Send your queries to the selected AI service (Google Gemini or OpenAI)</li>
+            <li>Save conversation history on your device</li>
+            <li>Personalize the experience based on your selected role and language</li>
+        </ul>
+
+        <h2>3. Third-Party Data Sharing</h2>
+        <p>EduAI only shares data with the AI services you choose:</p>
+        <ul>
+            <li><strong>Google Gemini API</strong> — if you use a Gemini key. Google's policy: <a href="https://policies.google.com/privacy" style="color:#6c63ff">policies.google.com/privacy</a></li>
+            <li><strong>OpenAI API</strong> — if you use an OpenAI key. OpenAI's policy: <a href="https://openai.com/privacy" style="color:#6c63ff">openai.com/privacy</a></li>
+        </ul>
+        <div class="highlight">
+            <p>⚠️ The EduAI developer <strong>does not have access</strong> to your API keys, queries, or AI responses. All data is transmitted directly from your device to the selected AI service.</p>
+        </div>
+
+        <h2>4. Data Storage</h2>
+        <ul>
+            <li>All data is stored <strong>locally on your device</strong></li>
+            <li>We do not have servers for storing user data</li>
+            <li>Uninstalling the app completely removes all associated data</li>
+        </ul>
+
+        <h2>5. App Permissions</h2>
+        <p>EduAI requests the following permissions:</p>
+        <ul>
+            <li><strong>Camera</strong> — to photograph documents and images for AI analysis</li>
+            <li><strong>Internet</strong> — to connect to AI services</li>
+            <li><strong>External Storage</strong> — to save exported PDF/DOCX files</li>
+            <li><strong>Gallery</strong> — to select images for analysis</li>
+        </ul>
+
+        <h2>6. Security</h2>
+        <p>We take measures to protect your data:</p>
+        <ul>
+            <li>API keys are stored in Android DataStore secure storage</li>
+            <li>Data is not transmitted to third-party servers</li>
+            <li>We do not sell or share your data with third parties</li>
+        </ul>
+
+        <h2>7. Children</h2>
+        <p>The EduAI app is designed for educational purposes and may be used by children under parental or educator supervision. We do not knowingly collect personal data from children under 13.</p>
+
+        <h2>8. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy. We will notify you of significant changes through app updates. Continued use of the app after changes constitutes your acceptance of the updated policy.</p>
+
+        <div class="contact">
+            <h2 style="margin-top:0; border:none;">9. Contact Us</h2>
+            <p>If you have questions about this Privacy Policy, please contact us:</p>
+            <p><strong>Developer:</strong> Ruslan Maiboroda</p>
+            <p><strong>App:</strong> EduAI — AI Educational Assistant</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 EduAI by Ruslan Maiboroda. All rights reserved.</p>
+    </footer>
+</div>
+
+<script>
+function switchLang(lang) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
