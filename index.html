@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduAI — Privacy Policy / Політика Конфіденційності</title>
+    <title>EduAI — Privacy Policy & Terms of Service / Політика Конфіденційності та Умови Використання</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -66,6 +66,11 @@
             padding-bottom: 8px;
             border-bottom: 1px solid #6c63ff33;
         }
+        h3 {
+            font-size: 16px;
+            color: #a29bfe;
+            margin: 16px 0 8px;
+        }
         p { margin-bottom: 12px; color: #ccc; }
         ul {
             margin: 8px 0 16px 20px;
@@ -100,8 +105,8 @@
 <div class="container">
 
     <div class="lang-switch">
-        <button class="lang-btn active" onclick="switchLang('uk')">🇺🇦 Українська</button>
-        <button class="lang-btn" onclick="switchLang('en')">🇬🇧 English</button>
+        <button class="lang-btn active" onclick="switchLang('uk', this)">🇺🇦 Українська</button>
+        <button class="lang-btn" onclick="switchLang('en', this)">🇬🇧 English</button>
     </div>
 
     <!-- UKRAINIAN -->
@@ -109,12 +114,12 @@
         <div class="header">
             <div class="logo">🎓</div>
             <h1>EduAI</h1>
-            <p style="color:#aaa; font-size:16px;">Політика Конфіденційності</p>
+            <p style="color:#aaa; font-size:16px;">Політика Конфіденційності та Умови Використання</p>
             <p class="date">Дата набрання чинності: 23 березня 2026 року</p>
         </div>
 
         <div class="highlight">
-            <p>Ця Політика конфіденційності описує, як додаток <strong>EduAI</strong>, розроблений <strong>Ruslan Maiboroda</strong>, збирає, використовує та захищає вашу інформацію.</p>
+            <p>Ця Політика конфіденційності та Умови використання описують, як додаток <strong>EduAI</strong>, розроблений <strong>Ruslan Maiboroda</strong>, збирає, використовує та захищає вашу інформацію, а також визначають правила користування сервісом.</p>
         </div>
 
         <h2>1. Інформація, яку ми збираємо</h2>
@@ -137,21 +142,30 @@
         <h2>3. Передача даних третім особам</h2>
         <p>EduAI передає дані лише сервісам AI, які ви обрали:</p>
         <ul>
-            <li><strong>Google Gemini API</strong> — якщо ви використовуєте Gemini ключ. Політика Google: <a href="https://policies.google.com/privacy" style="color:#6c63ff">policies.google.com/privacy</a></li>
-            <li><strong>OpenAI API</strong> — якщо ви використовуєте OpenAI ключ. Політика OpenAI: <a href="https://openai.com/privacy" style="color:#6c63ff">openai.com/privacy</a></li>
+            <li><strong>Google Gemini API</strong> — якщо ви використовуєте Gemini ключ. Політика Google: <a href="https://policies.google.com/privacy" style="color:#6c63ff" target="_blank">policies.google.com/privacy</a></li>
+            <li><strong>OpenAI API</strong> — якщо ви використовуєте OpenAI ключ. Політика OpenAI: <a href="https://openai.com/privacy" style="color:#6c63ff" target="_blank">openai.com/privacy</a></li>
         </ul>
         <div class="highlight">
             <p>⚠️ Розробник EduAI <strong>не має доступу</strong> до ваших API ключів, запитів або відповідей AI. Всі дані передаються напряму з вашого пристрою до обраного AI сервісу.</p>
         </div>
 
-        <h2>4. Зберігання даних</h2>
+        <h2>4. Умови використання (Terms of Service)</h2>
+        <p>Використовуючи додаток <strong>EduAI</strong>, ви погоджуєтеся з наступними умовами:</p>
+        <h3>4.1. Надання послуг</h3>
+        <p>Додаток надається за принципом "як є" (As Is). Ми не гарантуємо безперебійну роботу зовнішніх AI-сервісів (Gemini, OpenAI) або абсолютну точність згенерованих ними відповідей.</p>
+        <h3>4.2. Інтелектуальна власність</h3>
+        <p>Усі права на дизайн, кодову базу та торгові марки EduAI належать розробнику Ruslan Maiboroda. Авторські права на створені вам за допомогою AI матеріали регулюються умовами відповідного AI-провайдера.</p>
+        <h3>4.3. Оплата та монетизація</h3>
+        <p>Якщо додаток пропонує платні функції або підписки, усі платіжні операції здійснюються виключно через офіційну білінгову систему <strong>Google Play Billing</strong> у відповідності до правил Google Play.</p>
+
+        <h2>5. Зберігання даних</h2>
         <ul>
             <li>Всі дані зберігаються <strong>локально на вашому пристрої</strong></li>
             <li>Ми не маємо серверів для зберігання користувацьких даних</li>
             <li>Видалення додатку повністю видаляє всі пов'язані дані</li>
         </ul>
 
-        <h2>5. Дозволи додатку</h2>
+        <h2>6. Дозволи додатку</h2>
         <p>EduAI запитує наступні дозволи:</p>
         <ul>
             <li><strong>Камера</strong> — для фотографування документів та зображень для аналізу AI</li>
@@ -161,7 +175,7 @@
             <li><strong>Галерея</strong> — для вибору зображень для аналізу</li>
         </ul>
 
-        <h2>6. Безпека</h2>
+        <h2>7. Безпека</h2>
         <p>Ми вживаємо заходів для захисту ваших даних:</p>
         <ul>
             <li>API ключі зберігаються у захищеному сховищі Android DataStore</li>
@@ -169,15 +183,15 @@
             <li>Ми не продаємо та не передаємо ваші дані третім особам</li>
         </ul>
 
-        <h2>7. Діти</h2>
+        <h2>8. Діти</h2>
         <p>Додаток EduAI призначений для освітніх цілей і може використовуватися дітьми під наглядом батьків або педагогів. Ми свідомо не збираємо персональні дані дітей до 13 років.</p>
 
-        <h2>8. Зміни до політики</h2>
-        <p>Ми можемо оновлювати цю Політику конфіденційності. Про значні зміни ми повідомимо через оновлення додатку. Продовження використання додатку після змін означає вашу згоду з оновленою політикою.</p>
+        <h2>9. Зміни до політики та умов</h2>
+        <p>Ми можемо оновлювати цю Політику конфіденційності та Умови використання. Про значні зміни ми повідомимо через оновлення додатку. Продовження використання додатку після змін означає вашу згоду з оновленими умовами.</p>
 
         <div class="contact">
-            <h2 style="margin-top:0; border:none;">9. Контакти</h2>
-            <p>Якщо у вас є запитання щодо цієї Політики конфіденційності, зверніться до нас:</p>
+            <h2 style="margin-top:0; border:none;">10. Контакти</h2>
+            <p>Якщо у вас є запитання щодо цієї Політики конфіденційності чи Умов використання, зверніться до нас:</p>
             <p><strong>Email:</strong> r.maiboroda777@gmail.com</p>
             <p><strong>Розробник:</strong> Ruslan Maiboroda</p>
             <p><strong>Додаток:</strong> EduAI — AI навчальний помічник</p>
@@ -189,12 +203,12 @@
         <div class="header">
             <div class="logo">🎓</div>
             <h1>EduAI</h1>
-            <p style="color:#aaa; font-size:16px;">Privacy Policy</p>
+            <p style="color:#aaa; font-size:16px;">Privacy Policy & Terms of Service</p>
             <p class="date">Effective Date: March 23, 2026</p>
         </div>
 
         <div class="highlight">
-            <p>This Privacy Policy describes how the <strong>EduAI</strong> application, developed by <strong>Ruslan Maiboroda</strong>, collects, uses, and protects your information.</p>
+            <p>This Privacy Policy and Terms of Service describe how the <strong>EduAI</strong> application, developed by <strong>Ruslan Maiboroda</strong>, collects, uses, and protects your information, and establishes the rules of use.</p>
         </div>
 
         <h2>1. Information We Collect</h2>
@@ -217,21 +231,30 @@
         <h2>3. Third-Party Data Sharing</h2>
         <p>EduAI only shares data with the AI services you choose:</p>
         <ul>
-            <li><strong>Google Gemini API</strong> — if you use a Gemini key. Google's policy: <a href="https://policies.google.com/privacy" style="color:#6c63ff">policies.google.com/privacy</a></li>
-            <li><strong>OpenAI API</strong> — if you use an OpenAI key. OpenAI's policy: <a href="https://openai.com/privacy" style="color:#6c63ff">openai.com/privacy</a></li>
+            <li><strong>Google Gemini API</strong> — if you use a Gemini key. Google's policy: <a href="https://policies.google.com/privacy" style="color:#6c63ff" target="_blank">policies.google.com/privacy</a></li>
+            <li><strong>OpenAI API</strong> — if you use an OpenAI key. OpenAI's policy: <a href="https://openai.com/privacy" style="color:#6c63ff" target="_blank">openai.com/privacy</a></li>
         </ul>
         <div class="highlight">
             <p>⚠️ The EduAI developer <strong>does not have access</strong> to your API keys, queries, or AI responses. All data is transmitted directly from your device to the selected AI service.</p>
         </div>
 
-        <h2>4. Data Storage</h2>
+        <h2>4. Terms of Service</h2>
+        <p>By downloading or using the <strong>EduAI</strong> app, you agree to the following terms:</p>
+        <h3>4.1. Service Provision</h3>
+        <p>The app is provided on an "as is" and "as available" basis. We do not guarantee uninterrupted operation of third-party AI APIs or absolute accuracy of AI-generated responses.</p>
+        <h3>4.2. Intellectual Property</h3>
+        <p>All rights, title, and interest in and to the EduAI application belong exclusively to developer Ruslan Maiboroda.</p>
+        <h3>4.3. Payments</h3>
+        <p>Any optional in-app purchases or subscriptions are securely processed via <strong>Google Play Billing</strong> in accordance with Google Play's terms.</p>
+
+        <h2>5. Data Storage</h2>
         <ul>
             <li>All data is stored <strong>locally on your device</strong></li>
             <li>We do not have servers for storing user data</li>
             <li>Uninstalling the app completely removes all associated data</li>
         </ul>
 
-        <h2>5. App Permissions</h2>
+        <h2>6. App Permissions</h2>
         <p>EduAI requests the following permissions:</p>
         <ul>
             <li><strong>Camera</strong> — to photograph documents and images for AI analysis</li>
@@ -241,7 +264,7 @@
             <li><strong>Gallery</strong> — to select images for analysis</li>
         </ul>
 
-        <h2>6. Security</h2>
+        <h2>7. Security</h2>
         <p>We take measures to protect your data:</p>
         <ul>
             <li>API keys are stored in Android DataStore secure storage</li>
@@ -249,15 +272,15 @@
             <li>We do not sell or share your data with third parties</li>
         </ul>
 
-        <h2>7. Children</h2>
+        <h2>8. Children</h2>
         <p>The EduAI app is designed for educational purposes and may be used by children under parental or educator supervision. We do not knowingly collect personal data from children under 13.</p>
 
-        <h2>8. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy. We will notify you of significant changes through app updates. Continued use of the app after changes constitutes your acceptance of the updated policy.</p>
+        <h2>9. Changes to This Policy & Terms</h2>
+        <p>We may update this Privacy Policy and Terms of Service. We will notify you of significant changes through app updates. Continued use of the app after changes constitutes your acceptance of the updated policy.</p>
 
         <div class="contact">
-            <h2 style="margin-top:0; border:none;">9. Contact Us</h2>
-            <p>If you have questions about this Privacy Policy, please contact us:</p>
+            <h2 style="margin-top:0; border:none;">10. Contact Us</h2>
+            <p>If you have questions about this Privacy Policy or Terms of Service, please contact us:</p>
             <p><strong>Email:</strong> r.maiboroda777@gmail.com</p>
             <p><strong>Developer:</strong> Ruslan Maiboroda</p>
             <p><strong>App:</strong> EduAI — AI Educational Assistant</p>
@@ -270,11 +293,11 @@
 </div>
 
 <script>
-function switchLang(lang) {
+function switchLang(lang, btn) {
     document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
     document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
     document.getElementById(lang).classList.add('active');
-    event.target.classList.add('active');
+    btn.classList.add('active');
 }
 </script>
 </body>
